@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.codepath.apps.tumblrsnap"
+        minSdkVersion 16
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+}
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    apt 'org.parceler:parceler:1.0.4'
+    compile files('libs/android-async-http-1.4.3.jar')
+    compile files('libs/androidjhlabs.jar')
+    compile files('libs/codepath-android-view-helpers-0.1.0.jar')
+    compile files('libs/codepath-oauth-0.2.3.jar')
+    compile files('libs/codepath-utils.jar')
+    compile files('libs/scribe.jar')
+    compile files('libs/universal-image-loader-1.8.4.jar')
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:recyclerview-v7:23.2.0'
+
+}

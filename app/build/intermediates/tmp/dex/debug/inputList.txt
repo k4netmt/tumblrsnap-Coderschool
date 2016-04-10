@@ -1,0 +1,13 @@
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\classes\debug
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0-1f5e1038df6b640f9ca8ece8125551225b1bb8ff.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\codepath-utils-44a4443dbef8cea47d07a274f8107e46e64e3735.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\codepath-android-view-helpers-0.1.0-d5fc5ed067fe3055fbd491f213f382b02a57fb98.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\codepath-oauth-0.2.3-bd87a4d197b3a9ad6e68c4c9cbcdfe244abb4b29.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.3-3719aa8f26b4ea12cd9cf60e5bc212e5a43f90fc.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-107a906985841c7565f4a46e662e1e582ed55ed2.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.4-c9290f02eae6fb019b8a74187041428476c66439.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\scribe-8001f792818b29b7ef3423a159a17b1d68bca666.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\androidjhlabs-bc5fbd4fd76d50393614f9943684cc9084a32d87.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0-4875e45e289505cd0ac6c1a8e0015c2e5d75b2bd.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\classes-7a9ffbef0e053a136553748ac40dd07af64c3a56.jar
+D:\AndroidProject\tumblrsnap-master\app\build\intermediates\pre-dexed\debug\classes-ed8d4ca68f9fadd87415b8b514bd0f9fcb6a01d6.jar
