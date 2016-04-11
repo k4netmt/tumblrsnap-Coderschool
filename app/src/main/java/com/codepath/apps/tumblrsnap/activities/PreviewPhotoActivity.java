@@ -1,6 +1,7 @@
 package com.codepath.apps.tumblrsnap.activities;
 
 import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -97,12 +98,12 @@ public class PreviewPhotoActivity extends FragmentActivity {
 	}
 
 
-/*	@Override
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.preview_photo, menu);
 		return true;
-	}*/
+	}
 
 /*	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
@@ -142,7 +143,7 @@ public class PreviewPhotoActivity extends FragmentActivity {
 	public void onSaveButton(MenuItem menuItem) {
 		dialog = SimpleProgressDialog.build(this);
 		dialog.show();
-		
+		processedBitmap=((BitmapDrawable)ivPreview.getDrawable()).getBitmap();
 		TumblrClient client = ((TumblrClient) TumblrClient.getInstance(TumblrClient.class, this));
 		client.createPhotoPost(User.currentUser().getBlogHostname(), processedBitmap, new AsyncHttpResponseHandler() {
 			@Override
